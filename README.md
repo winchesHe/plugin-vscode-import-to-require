@@ -4,14 +4,18 @@
 
 ## 转换选中文本的导入方式
 
-比如：`const a = require('xx') --> import a from 'xx'`
+比如：
+
+`const a = require('xx') --> import a from 'xx'`
+
+`import b from 'xx' --> const b = require('xx')`
 
 ### **使用**：
 
 #### 1.选中文本后，右键选中 “import 转换 require”
 
-#### 或者快捷键：
+#### 2.快捷键：
 
-- win: "ctrl+alt+R"
+- win: **ctrl+alt+R**
 
-- mac: "command+shift+R"
+- mac: **command+shift+R**
