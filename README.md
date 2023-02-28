@@ -1,15 +1,17 @@
-# exchange-words
+# ImportToRequire
 
 <a href="https://marketplace.visualstudio.com/items?itemName=antfu.ext-name" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/antfu.ext-name.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
 
-## 交换两个选中文本的前后位置
+## 转换选中文本的导入方式
+
+比如：`const a = require('xx') --> import a from 'xx'`
 
 ### **使用**：
 
-#### 右键选中 ”exchange-words“
+#### 1.选中文本后，右键选中 “import 转换 require”
 
 #### 或者快捷键：
 
-- win: "ctrl+H"
+- win: "ctrl+alt+R"
 
-- mac: "command+H"
+- mac: "command+shift+R"
